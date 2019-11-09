@@ -10,24 +10,18 @@ import {
 import Home from './Pages/Home/home';
 import SideProject from './Pages/SideProjects/sideProjects';
 import Blog from './Pages/Blog/blog';
+import { Navbar, Nav } from 'react-bootstrap';
 
 export default function App() { 
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/side-projects">Side Projects</Link>
-            </li>
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-          </ul>
-        </nav>
+        <Navbar bg="dark" expand="lg">
+          <Navbar.Brand href="/">Thomas Noelcke</Navbar.Brand>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/side-projects">Side Projects</Nav.Link>
+          <Nav.Link href="/blog">Blog</Nav.Link>
+        </Navbar>
 
         <Switch>
           <Route path="/side-projects">
