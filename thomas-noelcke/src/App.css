@@ -24,3 +24,20 @@
 .tab-content{
   display: block;
 }
+
+.text-content {
+  padding-left: 8%;
+}
+
+.text-content-about {
+  padding-left: 15%;
+  padding-top: 10px;
+}
+
+.badge-left {
+  justify-content: left;
+}
+
+.badge-right {
+  justify-content: right;
+}
