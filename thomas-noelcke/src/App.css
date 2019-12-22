@@ -26,12 +26,17 @@
 }
 
 .text-content {
-  padding-left: 8%;
+  padding-left: 120px;
 }
 
 .text-content-about {
   padding-left: 15%;
   padding-top: 10px;
+}
+
+.text-content-education {
+  padding-top: 10px;
+  padding-left: 30%;
 }
 
 .badge-left {

@@ -89,14 +89,21 @@ const Home: React.FC = () => {
                     </Tab>
                     <Tab eventKey="education" title="Education">
                         <div className="text-content">    
-                            <div className="col-12">
-                                My Education
+                            <div className="col-10">
+                                <h3>Oregon State University</h3>
+                                <div className="font-weight-bold">B.S. Computer Science</div>
+                                <Badge variant="secondary">Business and Entrepreneurship Minor</Badge>
+                                <Badge variant="secondary">Fall 2016 - Summer 2019</Badge>
+                            </div>
+                            <div className="col-10">
+                                <h3>St.Helens High School</h3>
+                                <div className="font-weight-bold">High School Diploma</div>
+                                <Badge variant="secondary">Fall 2006 - Sprint 2010</Badge>
                             </div>
                         </div>
                     </Tab>
                 </Tabs>
                 </div>
-                <div className="col-1"></div>
             </div>
     );
 }
